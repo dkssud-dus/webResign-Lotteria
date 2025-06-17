@@ -1145,7 +1145,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 /* footer */
-fetch('../include/footer.html')
+fetch('/webRedesign-Lotteria/include/footer.html')
   .then(response => response.text())
   .then(data => {
     document.querySelector('.footer-include').innerHTML = data;
@@ -1156,4 +1156,11 @@ fetch('../include/footer.html')
         btn.style.display = (window.scrollY > 300) ? "flex" : "none";
       }
     };
+  });
+
+/* bottom */
+fetch('/webRedesign-Lotteria/include/bottom.html')
+  .then(response => response.text())
+  .then(data => {
+    document.querySelector('.bottom-include').innerHTML = data;
   });
