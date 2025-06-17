@@ -1083,27 +1083,27 @@ let drinkBtn = document.querySelectorAll(".card-wrap.drink .info-more-btn");
 // 클릭하면 그에 맞는 창으로 이동
 burgerBtn.forEach(btn=>{
   btn.addEventListener("click",()=>{
-    window.open("../pages/menu-burger01.html");
+    window.open("/webRedesign-Lotteria/pages/menu-burger01.html");
   })
 })
 desertBtn.forEach(btn=>{
   btn.addEventListener("click",()=>{
-    window.open("../pages/menu-dessert01.html");
+    window.open("/webRedesign-Lotteria/pages/menu-dessert01.html");
   })
 })
 chickenBtn.forEach(btn=>{
   btn.addEventListener("click",()=>{
-    window.open("../pages/menu-chicken01.html");
+    window.open("/webRedesign-Lotteria/pages/menu-chicken01.html");
   })
 })
 drinkBtn.forEach(btn=>{
   btn.addEventListener("click",()=>{
-    window.open("../pages/menu-drink01.html");
+    window.open("/webRedesign-Lotteria/pages/menu-drink01.html");
   })
 })
 iceshotBtn.forEach(btn=>{
   btn.addEventListener("click",()=>{
-    window.open("../pages/menu-iceShot01.html");
+    window.open("/webRedesign-Lotteria/pages/menu-iceShot01.html");
   })
 })
 
