@@ -993,6 +993,7 @@ body {
     align-items: center;
 
     .left-footer{
+      width: 400px;
       display: flex;
       flex-direction: column;
     h4{
@@ -1030,24 +1031,25 @@ body {
   }
   
     .qr-wrap {
-    padding: 20px 0;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-  
-    .qr-img {
-      width: 100px;
-      height: 100px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
-      border-radius: 20px;
+      width: 400px;
+      padding: 20px 0;
       display: flex;
-      justify-content: center;
+      gap: 30px;
       align-items: center;
-      background-color: white;
-      img {
-        width: 70%;
+  
+      .qr-img {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        img {
+          width: 70%;
+        }
       }
-    }
   
     .text-wrap {
       width: calc(100% - 130px);

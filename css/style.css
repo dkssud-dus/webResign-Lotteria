@@ -1781,6 +1781,7 @@ body {
   align-items: center;
 }
 .bottom-wrap .bottom-include .left-footer {
+  width: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -1821,6 +1822,7 @@ body {
   font-weight: bold;
 }
 .bottom-wrap .bottom-include .qr-wrap {
+  width: 400px;
   padding: 20px 0;
   display: flex;
   gap: 30px;
